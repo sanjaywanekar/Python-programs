@@ -1,0 +1,7 @@
+numbers = list(map(int , input("Enter number's :").split())) #map() as entered numbers will be in form of strings so this function converts each string into integer
+sum_even = 0
+for num in numbers :
+    if num % 2 == 0 :
+        sum_even += num 
+
+print("sum of even numbers :" , sum_even)
